@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Резюме</title>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+		
+		<!-- Иконки -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+		
+		<!-- JS -->
+		<script src="script.js"></script>
+		
+		<style>
+			/*Шрифт для меню*/ 
+			@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
+			
+			/*Шрифт для описания*/ 
+			@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+			
+			.my-menu-text{
+				font-family: 'Playfair Display', serif;
+				font-size: 14pt;
+			}
+			
+			.my-important{
+				font-size: 14pt;
+			}
+			
+			.my-strong-text{
+				font-family: 'Roboto Slab', serif;
+				font-size: 14pt;
+			}
+			
+			.my-header-text{
+				font-family: 'Playfair Display', serif;
+				font-size: 22pt;
+			}
+			.menu{
+				color: black;
+			}
+			.menu:hover{
+				text-decoration: none;
+				color: gold;
+			}
+			
+			div{
+				border: 0px solid black;
+			}
+			.my-list{
+				list-style: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div class='container mt-md-5 mt-0'>	
+<!-- 		!!!	Меню список слева!!!!
+			<div class="row">
+				<div class="col-md-2 text-md-right text-center">
+					<div class="row row-cols-2 row-cols-md-1">
+						<div class="col"><a>Об авторе</a></div>
+						<div class="col"><a>Проекты</a></div>
+						<div class="col"><a>Опыт работы</a></div>
+						<div class="col"><a>Образование</a></div>
+					</div>
+				</div>
+				<div class="col-md-10">
+					<div class='col'>
+						<p class="h3">Обо мне</p>
+							<div class='row'>
+								<div class='col-md-4'>
+									<img src="author.jpg" class="img-thumbnail" alt="я">
+								</div>
+								<div class='col-md-8'>
+									Текст
+								</div>
+							</div>
+					</div>
+				</div> -->
+				
+			<!--Язык-->
+			<div class="col text-md-right text-center">
+				<a href='index.html' class=''>English ver.</a>
+			</div>
+				
+			<!--Меню-->		
+			<div class="col text-md-center text-center">
+				<div class="row row-cols-1 row-cols-md-4 border-bottom my-menu-text">
+					<div class="col mt-2"><a class='menu' href='#about_me'>Кто такой?</a></div>
+					<div class="col mt-2"><a class='menu' href='#projects'>Проекты</a></div>
+					<div class="col mt-2"><a class='menu' href='#experience'>Опыт работы</a></div>
+					<div class="col mt-2"><a class='menu' href='#knowlage'>Откуда черпаю знания...</a></div>
+				</div>
+			</div>
+			
+			<!--Основной блок-->
+			<div class='col pr-0 pl-0'>
+				<!--Обо мне-->
+				<div class='col mt-md-3 mt-3' id='about_me'>
+					<text class="my-header-text">Обо мне</text>
+						<div class='row mt-2'>
+							<div class='col-md-4'>
+								<img src="img/author.jpg" class="img-fluid" alt="Я">
+							</div>
+							<div class='col-md-8 mt-4 mt-md-0'>
+								<div class='col'>
+									<p class='my-important mb-0'><strong>Основное</strong></p>
+									<ul class="list-unstyled">
+										<li>Афанасьев Евгений</li>
+										<li>Родился 16.03.1999</li>
+										<li>Права категории B</li>	
+										<li>Уровень английского B1</li>
+										<li>Образование:
+											<ul>
+												<li>Бакалавриат СПБГЭТУ "ЛЭТИ" (закончил в 2020)</li>
+												<li>Магистратура НИУ МЭИ (планирую закончить в 2023)</li>
+											</ul>
+										</li>
+									</ul>
+									
+										<span class="align-middle">Связаться <a href='tel:+79110345356'>+79110345356</a> или </span>
+											<span class="align-middle">
+											<a href='https://t.me/afanasev_e'><i class="bi bi-telegram h2"></i></a>
+											<a href='https://wa.me/+79110345356'><i class="bi bi-whatsapp h2"></i></a>
+											<a href='mailto:79110345356@ya.ru'><i class="bi bi-envelope h2"></i></a>
+											</span>
+								</div>
+								
+								<div class='col'>
+									<text class='my-important'><strong>Знания</strong></text>
+									<ul>
+										<li>уверенные знания Python;</li>
+										<li>уверенные знания HTML, CSS;</li>
+										<li>базовые знания C#, SQL;</li>
+										<li>опыт работы с Linux;</li>
+										<li>работа с программными средствами KOMPAS, AutoCAD, Excel, Word, Power Point;</li>
+									</ul>
+									<text class='my-important'><strong>Навыки</strong></text>
+									<ul>
+										<li>усидчивое выполнение работы;</li>
+										<li>продуктивная работа как самостоятельно, так и в команде;</li>
+										<li>обучаемость и заинтересованность в новых направлениях.</li>
+									</ul>
+									<text class='my-important'><strong>Мои сильные стороны</strong></text>
+									<ul>
+										<li>технический склад ума;</li>
+										<li>ответственность;</li>
+										<li>пунктуальность.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+				</div>
+				
+				<!--Проекты-->
+				<div class='col mt-md-3 mt-0 text-left' id='projects'>
+					<text class="my-header-text">Проекты</text>
+					<p class="lead">
+						В этом разделе я выделил наиболее интересные проекты в которых принимал активное участие
+					</p>
+					<div class='col-md mt-md-2'>
+						<ul class="list-group list-group-flush">
+						<p class="my-important"><strong>Разработка проекта по автоматизации Бобровского сырного завода</strong></p>							
+						<div class='row'>
+							<div class='col-md-12'>
+								<p>
+									<i>
+									Принимал участие в качестве инженера проекта.
+									Мои задачи: 
+									аудит оборудования и контроль по подключению и прокладке кабеля;
+									руководство группой монтажников, постановка задач на подключение оборудования;
+									разработка документации на систему автоматизации, постановка задачи программистам, координация работы смежных отделов.
+									</i>
+								</p>
+							</div>
+						</div>
+						<p class="my-important"><strong>Разработка системы управления прессом для ВИАМ (Всероссийский научно-исследовательский институт авиационных материалов)</strong></p>							
+						<div class='row'>
+							<div class='col-md-12'>
+								<p>
+									<i>
+									Разрабатывал систему управления прессом.
+									Проект успешно внедрен, прошел приемосдаточные испытания, и в настоящее время используется для изготовления крыльев самолетов.
+									</i>
+								</p>
+							</div>
+						</div>
+						<p class="my-important"><strong>Разработка насосной станции для АО «Водоканал-Мытищи»</strong></p>							
+						<div class='row'>
+							<div class='col-md-12'>
+								<p>
+									<i>
+									Проект интересен тем, что его реализация была ограничена габаритами: задача заключалась в управлении 4 насосами по 250КВт, при этом каждый насос должен был упраляться преобразователем частоты или устройством плавного пуска.
+									Проект был реализован, прошел приемосдаточные испытания и на данный момент используется по назначению.
+									</i>
+								</p>
+							</div>
+						</div>
+						<p class="my-important"><strong>Разработка шкафа управления компрессорной установкой с паротурбинным приводом</strong></p>							
+						<div class='row'>
+							<div class='col-md-12'>
+								<p>
+									<i>
+									Проект на базе которого я писал свою дипломную работу, запомнился тем, что это была инновационная разработка, технология которой применялась впервые и мне повезло принимать участие в разработке.
+									Моя задача заключалась в проектировании УРЭП (Устройство  распределения электропитания) и разработке руководства по эксплуатации.
+									</i>
+								</p>
+							</div>
+						</div>
+						<p class="my-important"><strong>Учебный проект на базе OpenCV</strong></p>	
+						<div class='row'>
+							<div class='col-md-8'>
+								<p>
+									<i>
+									Задача:
+									У одного крупного производителя фанеры при доставке бревен для обработки с востока в центральную часть России стали пропадать бревна.
+									Нужно было простое решение, которое упростило бы задачу подсчета количества древесины.
+									</i>
+								</p>
+								<p>		
+									<i>
+									Решение:
+									Мое решение заключалось в пересчете бревен с помощью обработки изображения на базе библиотеки OpenCV.
+									Небольшой скрипт на Python и вы можете увидеть результат обработки изображения на картинке.
+									</i>
+								</p>
+							</div>
+							<div class='col-md-4'>
+								<p>
+									<img src="img/result.jpg" class="img-fluid" alt="Результат">
+								</p>
+							</div>
+						</div>
+						</ul>
+					</div>
+				</div>
+				
+				<!--Опыт-->
+				<div class='col mt-md-2 mt-0' id='experience'>
+					<text class="my-header-text">Опыт работы</text>
+					<div class='col-md mt-md-3'>
+						<div class='row'>
+							<div class='col-md-3'>							
+								<ul class="list-unstyled text-left text-md-right">
+									<li>ОАО "ПАГ" (Process Automation Group)</li>
+									<li><a href='http://pag.company/' target='_blank'>pag.company</a></li>
+									<li>10.2020 - настоящее время</li>							
+								</ul>
+							</div>
+							<div class='col-md-9'>
+								<p class='my-important'><strong>Коммерческий инженер</strong></p>
+								<ul class="list-unstyled">
+									<li>Анализ ТЗ, уточнение и согласование технических данных с заказчиком со системе автоматизации;</li>
+									<li>Подбор компонентов для подготовки технического решения по Шкафам управления;</li>
+									<li>Разработка инженерного решения с учетом всех экономических и технологических факторов;</li>
+									<li>Расчет и оформление технического решения в ТКП (технико-коммерческое предложение);</li>
+									<li>Презентация решения заказчику;</li>
+									<li>Постановка задачи на разработку программного обеспечения;</li>
+									<li>Разработка проектной документации;</li>
+									<li>Выезд на объекты для проверки возможности внедрения решения, проведения аудита, контроля проведения работ, авторского надзора.</li>
+								</ul>
+							</div>
+							<div class='col-md-3'>							
+								<ul class="list-unstyled text-left text-md-right">
+									<li>ОАО "НПФ Мехатроникс"</li>
+									<li><a href='https://www.mechatronics.ru/' target='_blank'>www.mechatronics.ru</a></li>
+									<li>06.2020 - 09.2021</li>							
+								</ul>
+							</div>
+							<div class='col-md-9'>
+								<p class='my-important'><strong>Инженер-проектировщик</strong></p>
+								<ul class="list-unstyled">
+									<li>Разработка проектной и рабочей документаций на системы автоматизированного управления;</li>
+									<li>Выявление потребностей заказчика;</li>
+									<li>Принятие технических решений, согласование с ГИПом и заказчиком;</li>
+									<li>Разработка проектной документации на низковольтные распределительные устройства, подбор оборудования, составление заказных спецификаций, подготовка коммерческих предложений;</li>
+									<li>Составление однолинейных схем в AutoCad Electrical;</li>
+									<li>Составленик заказных спецификаций.</li>
+								</ul>
+							</div>
+							<div class='col-md-3'>							
+								<ul class="list-unstyled text-left text-md-right">
+									<li>АО "НПФ "СИСТЕМА-СЕРВИС"</li>
+									<li><a href='https://systserv.spb.ru/#about' target='_blank'>systserv.spb.ru</a></li>
+									<li>10.2019 - 04.2020</li>							
+								</ul>
+							</div>
+							<div class='col-md-9'>
+								<p class='my-important'><strong>Техник</strong></p>
+								<ul class="list-unstyled">
+									<li>Разработка проектной и рабочей документаций на системы автоматизированного управления;</li>
+									<li>Разработка таблицы подключений, паспорта (сертификата) изделия, руководства по эксплуатации, формуляра;</li>
+									<li>Тестирование устройств.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!--Образование-->
+				<div class='col mt-md-2 mt-0' id='knowlage'>
+					<text class="my-header-text">Образование</text>
+					<div class='col-md mt-md-2'>
+						<div class='row'>
+							<div class='col-md-2 pt-2 pb-2 pt-md-0 pb-md-0'>
+								<img src="img/mpei.png" class="img-fluid" alt='НИУ МЭИ'/>
+							</div>
+							<div class='col-md-10'>
+								<p class='mb-1 mb-md-0 my-important'>Национальный исследовательский университет "Московский энергетический университет"</p>
+								<p class='mb-1 mb-md-0 my-important'>Институт вычислительных технологий и информатики</p>
+								<p class='mb-1 mb-md-0 my-important'><strong>Управление в технических системах</strong></p></br>
+								<text class='my-important'><strong>В процессе обучения изучал:</strong></text>
+								<ul class="list-unstyled">
+									<li>Технология проектирования программного обеспечения систем управления;</li>
+									<li>Методы и алгоритмы обработки данных и изображений;</li>
+									<li>Информационная безопасность в компьютерных системах;</li>
+									<li>Системы поддержки принятия решений.</li>
+								</ul>
+							</div>
+						</div>
+						<div class='row'>
+							<div class='col-md-2 pt-2 pb-2 pt-md-0 pb-md-0'>
+								<img src="img/etu.png" class="img-fluid" alt='СПБГЭТУ "ЛЭТИ"'/>
+							</div>
+							<div class='col-md-10'>
+								<p class='mb-1 mb-md-0 my-important'>Санкт-Петербургский государственный электротехнический университет имени В.И. Ленина</p>
+								<p class='mb-1 mb-md-0 my-important'>Факультет компьютерных технологий и информатики</p>
+								<p class='mb-1 mb-md-0 my-important'><strong>Управление в технических системах</strong></p></br>
+								<text class='my-important'><strong>В процессе обучения изучал:</strong></text>
+								<ul class="list-unstyled">
+									<li>Теория автоматического управления;</li>
+									<li>Алгоритмы и структуры данных;</li>
+									<li>Программирование контроллеров;</li>
+									<li>Объектно-ориентированное программирование;</li>
+									<li>Разработка программного обеспечения.</li>
+								</ul>
+							</div>
+						</div>
+						<div class='row mt-3'>
+							<p class='my-important'><strong>Регулярно повышаю свои навыки, прохожу курсы</strong></p>
+							<div class='col-md-12'>
+								<div class="card-columns">
+							
+									<div class="card">
+										<img src="img/1.png" class="card-img-top" alt="Поколение Python: курс для продвинутых">
+										<div class="card-body">
+											<h5 class="card-title">"Поколение Python": курс для продвинутых</h5>
+											<a href="https://stepik.org/cert/1095730" class="link" target='_blank'>Сертификат</a>
+										</div>
+									</div>
+
+									<div class="card">
+									<img src="img/2.png" class="card-img-top" alt="Поколение Python: курс для начинающих">
+										<div class="card-body">
+											<h5 class="card-title">"Поколение Python": курс для начинающих</h5>
+											<a href="https://stepik.org/cert/1017788" class="link" target='_blank'>Сертификат</a>
+										</div>
+									</div>
+
+									<div class="card">
+										<img src="img/3.png" class="card-img-top" alt="JavaScript для начинающих">
+										<div class="card-body">
+											<h5 class="card-title">JavaScript для начинающих</h5>
+											<a href="https://stepik.org/cert/869287" class="link" target='_blank'>Сертификат</a>
+										</div>
+									</div>
+
+									<div class="card">
+									<img src="img/4.png" class="card-img-top" alt="Веб-разработка для начинающих: HTML и CSS">
+										<div class="card-body">
+											<h5 class="card-title">Веб-разработка для начинающих: HTML и CSS</h5>
+											<a href="https://stepik.org/cert/795302" class="link" target='_blank'>Сертификат</a>
+										</div>
+									</div>
+
+									<div class="card">
+									<img src="img/5.png" class="card-img-top" alt="Программирование на Python">
+										<div class="card-body">
+											<h5 class="card-title">Программирование на Python</h5>
+											<a href="https://stepik.org/cert/199821" class="link" target='_blank'>Сертификат</a>
+										</div>
+									</div>
+
+									<div class="card">
+									<img src="img/6.png" class="card-img-top" alt="Matlab">
+										<div class="card-body">
+											<h5 class="card-title">Курс работы с Matlab</h5>
+											<a href="img/6.png" class="link" target='_blank'>Сертификат</a>
+										</div>
+									</div>
+
+
+									<div class="card">
+									<img src="img/7.jpg" class="card-img-top" alt="Базовая автоматизация Omron">
+										<div class="card-body">
+											<h5 class="card-title">Базовая автоматизация Omron</h5>
+											<a href="img/7.jpg" class="link" target='_blank'>Сертификат</a>
+										</div>
+									</div>
+
+									<div class="card">
+									<img src="img/8.jpg" class="card-img-top" alt="Управление проектом (project-management) в области IT">
+										<div class="card-body">
+											<h5 class="card-title">Управление проектом (project-management) в области IT</h5>
+											<a href="img/8.jpg" class="link" target='_blank'>Сертификат</a>
+										</div>
+									</div>
+
+									<div class="card">
+									<img src="img/9.jpg" class="card-img-top" alt="Управление асинхронными электродвигателями">
+										<div class="card-body">
+											<h5 class="card-title">Управление асинхронными электродвигателями</h5>
+											<a href="img/9.jpg" class="link" target='_blank'>Сертификат</a>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<div class='row'>
+							<p></p>
+							<div class='col-md-12'>
+								
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+		<!-- Вариант 1: пакет jQuery и Bootstrap (включает Popper) -->
+		
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+	</body>
+</html>
+					
